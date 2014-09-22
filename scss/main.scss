@@ -1,2 +1,7 @@
 @import "../bourbon/bourbon";
 @import "../neat/neat";
+@import "_normalize";
+
+body {
+	font-family:"Lato";
+}
