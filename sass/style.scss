@@ -116,17 +116,12 @@ body {
     font-family: 'Lato', Helvetica, sans-serif;
 }
 
-section {
-    float:none;
-}
-
 header {
     background-color: $blue;
     color:white;
     @include span(15);
     
     div {
-
         
         @include span(11);
         margin:0 auto;
@@ -137,6 +132,7 @@ header {
             display:inline-block;
             vertical-align: middle;
             margin-right:2em;
+            margin:0 2em 0 0;
         
         }
 
@@ -227,20 +223,32 @@ header {
     background-color: white;
     color:$deepBlue;
     @include span(15);
+    float:none;
 
     div {
-        // @include outer-container;
+        @include span(11);
+        float:none;
+        margin:0 auto;
+        padding:1em 0;
+
+        p {
+            width:54.545454%;
+            float:none;
+
+        }
 
         img {
-            // @include span-columns(3);
-            margin-right: 0;
+            width:27.27272727%;
+            margin:1em 0;
             float:right;
             border-radius: 50em;
             border:0.5em solid $deepBlue;
 
         }
-
+        
         a {
+            width:18.181818%;
+            text-align: center;
             text-decoration: none;
             color:$deepBlue;
             border:0.2em solid $deepBlue;
@@ -254,24 +262,77 @@ header {
             }
         }
     }
+
+    &:after {
+        content :"";
+        clear:both;
+        display:block;
+    }
 }
 
 .realisations {
+    @include span(15);
     background-color: $green;
     color:white;
+    clear:both;
+   
 
     div {
-        // @include outer-container;
+        @include span(11);
+        margin:0 auto;
+        float:none;
+        text-align: center;
+        padding:1em 0 2em;
+
+        ul {
+            padding:0;
+            margin:0;
+
+            &:after {
+                content :"";
+                clear:both;
+                display:block;
+            }
+        }
 
         li {
             display:inline;
-            // @include span-columns(3);
-            margin:0;
+        }
+
+        img {
+            width:27.27272727%;
+            border-radius: 50em;
+            border:0.5em solid $deepGreen;
         }
 
         span {
             visibility:hidden;
         }
+
+        >a {
+            clear:both;
+            text-align: center;
+            float:none;
+            text-decoration: none;
+            margin:2em auto;
+            color:white;
+            border:0.2em solid white;
+            padding:0.5em;
+            border-radius: 0.6em;
+        }
+
+    }
+}
+
+.services {
+    @include span(15);
+    color:$deepBlue;
+    clear:both;
+
+    div {
+        @include span(11);
+        margin:0 auto;
+        float:none;
     }
 }
 
