@@ -126,8 +126,7 @@ header {
     @include span(15);
     
     div {
-
-        
+ 
         @include span(11);
         margin:0 auto;
         float:none;
@@ -140,7 +139,7 @@ header {
         
         }
 
-        h1, nav, ul, li {
+        nav, ul, li {
             display :inline;
         }
         
@@ -274,19 +273,6 @@ header {
         }
     }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /* ==========================================================================
    Helper classes

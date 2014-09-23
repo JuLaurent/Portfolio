@@ -8,7 +8,7 @@
    Base styles: opinionated defaults
    ========================================================================== */
 @import url(http://fonts.googleapis.com/css?family=Lato);
-/* line 13, ../sass/style.scss */
+/* line 13, ../scss/style.scss */
 html,
 button,
 input,
@@ -17,7 +17,7 @@ textarea {
   color: #222;
 }
 
-/* line 21, ../sass/style.scss */
+/* line 21, ../scss/style.scss */
 html {
   font-size: 1em;
   line-height: 1.4;
@@ -28,13 +28,13 @@ html {
  * These selection rule sets have to be separate.
  * Customize the background color to match your design.
  */
-/* line 32, ../sass/style.scss */
+/* line 32, ../scss/style.scss */
 ::-moz-selection {
   background: #b3d4fc;
   text-shadow: none;
 }
 
-/* line 37, ../sass/style.scss */
+/* line 37, ../scss/style.scss */
 ::selection {
   background: #b3d4fc;
   text-shadow: none;
@@ -43,7 +43,7 @@ html {
 /*
  * A better looking default horizontal rule
  */
-/* line 46, ../sass/style.scss */
+/* line 46, ../scss/style.scss */
 hr {
   display: block;
   height: 1px;
@@ -57,7 +57,7 @@ hr {
  * Remove the gap between images, videos, audio and canvas and the bottom of
  * their containers: h5bp.com/i/440
  */
-/* line 60, ../sass/style.scss */
+/* line 60, ../scss/style.scss */
 audio,
 canvas,
 img,
@@ -68,7 +68,7 @@ video {
 /*
  * Remove default fieldset styles.
  */
-/* line 71, ../sass/style.scss */
+/* line 71, ../scss/style.scss */
 fieldset {
   border: 0;
   margin: 0;
@@ -78,7 +78,7 @@ fieldset {
 /*
  * Allow only vertical resizing of textareas.
  */
-/* line 81, ../sass/style.scss */
+/* line 81, ../scss/style.scss */
 textarea {
   resize: vertical;
 }
@@ -86,7 +86,7 @@ textarea {
 /* ==========================================================================
    Browse Happy prompt
    ========================================================================== */
-/* line 89, ../sass/style.scss */
+/* line 89, ../scss/style.scss */
 .browsehappy {
   margin: 0.2em 0;
   background: #ccc;
@@ -103,7 +103,7 @@ textarea {
  * 2. Prevent iOS text size adjust after orientation change, without disabling
  *    user zoom.
  */
-/* line 9, ../sass/_normalize.scss */
+/* line 9, ../scss/_normalize.scss */
 html {
   font-family: sans-serif;
   /* 1 */
@@ -116,7 +116,7 @@ html {
 /**
  * Remove default margin.
  */
-/* line 19, ../sass/_normalize.scss */
+/* line 19, ../scss/_normalize.scss */
 body {
   margin: 0;
 }
@@ -128,7 +128,7 @@ body {
  * Correct `block` display not defined for `details` or `summary` in IE 10/11 and Firefox.
  * Correct `block` display not defined for `main` in IE 11.
  */
-/* line 32, ../sass/_normalize.scss */
+/* line 32, ../scss/_normalize.scss */
 article,
 aside,
 details,
@@ -148,7 +148,7 @@ summary {
  * 1. Correct `inline-block` display not defined in IE 8/9.
  * 2. Normalize vertical alignment of `progress` in Chrome, Firefox, and Opera.
  */
-/* line 52, ../sass/_normalize.scss */
+/* line 52, ../scss/_normalize.scss */
 audio,
 canvas,
 progress,
@@ -163,7 +163,7 @@ video {
  * Prevent modern browsers from displaying `audio` without controls.
  * Remove excess height in iOS 5 devices.
  */
-/* line 65, ../sass/_normalize.scss */
+/* line 65, ../scss/_normalize.scss */
 audio:not([controls]) {
   display: none;
   height: 0;
@@ -173,7 +173,7 @@ audio:not([controls]) {
  * Address `[hidden]` styling not present in IE 8/9/10.
  * Hide the `template` element in IE 8/9/11, Safari, and Firefox < 22.
  */
-/* line 75, ../sass/_normalize.scss */
+/* line 75, ../scss/_normalize.scss */
 [hidden],
 template {
   display: none;
@@ -184,7 +184,7 @@ template {
 /**
  * Remove the gray background color from active links in IE 10.
  */
-/* line 87, ../sass/_normalize.scss */
+/* line 87, ../scss/_normalize.scss */
 a {
   background: transparent;
 }
@@ -192,7 +192,7 @@ a {
 /**
  * Improve readability when focused and also mouse hovered in all browsers.
  */
-/* line 95, ../sass/_normalize.scss */
+/* line 95, ../scss/_normalize.scss */
 a:active,
 a:hover {
   outline: 0;
@@ -203,7 +203,7 @@ a:hover {
 /**
  * Address styling not present in IE 8/9/10/11, Safari, and Chrome.
  */
-/* line 107, ../sass/_normalize.scss */
+/* line 107, ../scss/_normalize.scss */
 abbr[title] {
   border-bottom: 1px dotted;
 }
@@ -211,7 +211,7 @@ abbr[title] {
 /**
  * Address style set to `bolder` in Firefox 4+, Safari, and Chrome.
  */
-/* line 115, ../sass/_normalize.scss */
+/* line 115, ../scss/_normalize.scss */
 b,
 strong {
   font-weight: bold;
@@ -220,7 +220,7 @@ strong {
 /**
  * Address styling not present in Safari and Chrome.
  */
-/* line 124, ../sass/_normalize.scss */
+/* line 124, ../scss/_normalize.scss */
 dfn {
   font-style: italic;
 }
@@ -229,7 +229,7 @@ dfn {
  * Address variable `h1` font-size and margin within `section` and `article`
  * contexts in Firefox 4+, Safari, and Chrome.
  */
-/* line 133, ../sass/_normalize.scss */
+/* line 133, ../scss/_normalize.scss */
 h1 {
   font-size: 2em;
   margin: 0.67em 0;
@@ -238,7 +238,7 @@ h1 {
 /**
  * Address styling not present in IE 8/9.
  */
-/* line 142, ../sass/_normalize.scss */
+/* line 142, ../scss/_normalize.scss */
 mark {
   background: #ff0;
   color: #000;
@@ -247,7 +247,7 @@ mark {
 /**
  * Address inconsistent and variable font size in all browsers.
  */
-/* line 151, ../sass/_normalize.scss */
+/* line 151, ../scss/_normalize.scss */
 small {
   font-size: 80%;
 }
@@ -255,7 +255,7 @@ small {
 /**
  * Prevent `sub` and `sup` affecting `line-height` in all browsers.
  */
-/* line 159, ../sass/_normalize.scss */
+/* line 159, ../scss/_normalize.scss */
 sub,
 sup {
   font-size: 75%;
@@ -264,12 +264,12 @@ sup {
   vertical-align: baseline;
 }
 
-/* line 167, ../sass/_normalize.scss */
+/* line 167, ../scss/_normalize.scss */
 sup {
   top: -0.5em;
 }
 
-/* line 171, ../sass/_normalize.scss */
+/* line 171, ../scss/_normalize.scss */
 sub {
   bottom: -0.25em;
 }
@@ -279,7 +279,7 @@ sub {
 /**
  * Remove border when inside `a` element in IE 8/9/10.
  */
-/* line 182, ../sass/_normalize.scss */
+/* line 182, ../scss/_normalize.scss */
 img {
   border: 0;
 }
@@ -287,7 +287,7 @@ img {
 /**
  * Correct overflow not hidden in IE 9/10/11.
  */
-/* line 190, ../sass/_normalize.scss */
+/* line 190, ../scss/_normalize.scss */
 svg:not(:root) {
   overflow: hidden;
 }
@@ -297,7 +297,7 @@ svg:not(:root) {
 /**
  * Address margin not present in IE 8/9 and Safari.
  */
-/* line 201, ../sass/_normalize.scss */
+/* line 201, ../scss/_normalize.scss */
 figure {
   margin: 1em 40px;
 }
@@ -305,7 +305,7 @@ figure {
 /**
  * Address differences between Firefox and other browsers.
  */
-/* line 209, ../sass/_normalize.scss */
+/* line 209, ../scss/_normalize.scss */
 hr {
   -moz-box-sizing: content-box;
   box-sizing: content-box;
@@ -315,7 +315,7 @@ hr {
 /**
  * Contain overflow in all browsers.
  */
-/* line 219, ../sass/_normalize.scss */
+/* line 219, ../scss/_normalize.scss */
 pre {
   overflow: auto;
 }
@@ -323,7 +323,7 @@ pre {
 /**
  * Address odd `em`-unit font size rendering in all browsers.
  */
-/* line 227, ../sass/_normalize.scss */
+/* line 227, ../scss/_normalize.scss */
 code,
 kbd,
 pre,
@@ -344,7 +344,7 @@ samp {
  * 2. Correct font properties not being inherited.
  * 3. Address margins set differently in Firefox 4+, Safari, and Chrome.
  */
-/* line 250, ../sass/_normalize.scss */
+/* line 250, ../scss/_normalize.scss */
 button,
 input,
 optgroup,
@@ -361,7 +361,7 @@ textarea {
 /**
  * Address `overflow` set to `hidden` in IE 8/9/10/11.
  */
-/* line 264, ../sass/_normalize.scss */
+/* line 264, ../scss/_normalize.scss */
 button {
   overflow: visible;
 }
@@ -372,7 +372,7 @@ button {
  * Correct `button` style inheritance in Firefox, IE 8/9/10/11, and Opera.
  * Correct `select` style inheritance in Firefox.
  */
-/* line 275, ../sass/_normalize.scss */
+/* line 275, ../scss/_normalize.scss */
 button,
 select {
   text-transform: none;
@@ -385,7 +385,7 @@ select {
  * 3. Improve usability and consistency of cursor style between image-type
  *    `input` and others.
  */
-/* line 288, ../sass/_normalize.scss */
+/* line 288, ../scss/_normalize.scss */
 button,
 html input[type="button"],
 input[type="reset"],
@@ -399,7 +399,7 @@ input[type="submit"] {
 /**
  * Re-set default cursor for disabled elements.
  */
-/* line 300, ../sass/_normalize.scss */
+/* line 300, ../scss/_normalize.scss */
 button[disabled],
 html input[disabled] {
   cursor: default;
@@ -408,7 +408,7 @@ html input[disabled] {
 /**
  * Remove inner padding and border in Firefox 4+.
  */
-/* line 309, ../sass/_normalize.scss */
+/* line 309, ../scss/_normalize.scss */
 button::-moz-focus-inner,
 input::-moz-focus-inner {
   border: 0;
@@ -419,7 +419,7 @@ input::-moz-focus-inner {
  * Address Firefox 4+ setting `line-height` on `input` using `!important` in
  * the UA stylesheet.
  */
-/* line 320, ../sass/_normalize.scss */
+/* line 320, ../scss/_normalize.scss */
 input {
   line-height: normal;
 }
@@ -431,7 +431,7 @@ input {
  * 1. Address box sizing set to `content-box` in IE 8/9/10.
  * 2. Remove excess padding in IE 8/9/10.
  */
-/* line 332, ../sass/_normalize.scss */
+/* line 332, ../scss/_normalize.scss */
 input[type="checkbox"],
 input[type="radio"] {
   box-sizing: border-box;
@@ -445,7 +445,7 @@ input[type="radio"] {
  * `font-size` values of the `input`, it causes the cursor style of the
  * decrement button to change from `default` to `text`.
  */
-/* line 344, ../sass/_normalize.scss */
+/* line 344, ../scss/_normalize.scss */
 input[type="number"]::-webkit-inner-spin-button,
 input[type="number"]::-webkit-outer-spin-button {
   height: auto;
@@ -456,7 +456,7 @@ input[type="number"]::-webkit-outer-spin-button {
  * 2. Address `box-sizing` set to `border-box` in Safari and Chrome
  *    (include `-moz` to future-proof).
  */
-/* line 355, ../sass/_normalize.scss */
+/* line 355, ../scss/_normalize.scss */
 input[type="search"] {
   -webkit-appearance: textfield;
   /* 1 */
@@ -471,7 +471,7 @@ input[type="search"] {
  * Safari (but not Chrome) clips the cancel button when the search input has
  * padding (and `textfield` appearance).
  */
-/* line 368, ../sass/_normalize.scss */
+/* line 368, ../scss/_normalize.scss */
 input[type="search"]::-webkit-search-cancel-button,
 input[type="search"]::-webkit-search-decoration {
   -webkit-appearance: none;
@@ -480,7 +480,7 @@ input[type="search"]::-webkit-search-decoration {
 /**
  * Define consistent border, margin, and padding.
  */
-/* line 377, ../sass/_normalize.scss */
+/* line 377, ../scss/_normalize.scss */
 fieldset {
   border: 1px solid #c0c0c0;
   margin: 0 2px;
@@ -491,7 +491,7 @@ fieldset {
  * 1. Correct `color` not being inherited in IE 8/9/10/11.
  * 2. Remove padding so people aren't caught out if they zero out fieldsets.
  */
-/* line 388, ../sass/_normalize.scss */
+/* line 388, ../scss/_normalize.scss */
 legend {
   border: 0;
   /* 1 */
@@ -502,7 +502,7 @@ legend {
 /**
  * Remove default vertical scrollbar in IE 8/9/10/11.
  */
-/* line 397, ../sass/_normalize.scss */
+/* line 397, ../scss/_normalize.scss */
 textarea {
   overflow: auto;
 }
@@ -511,7 +511,7 @@ textarea {
  * Don't inherit the `font-weight` (applied by a rule above).
  * NOTE: the default cannot safely be changed in Chrome and Safari on OS X.
  */
-/* line 406, ../sass/_normalize.scss */
+/* line 406, ../scss/_normalize.scss */
 optgroup {
   font-weight: bold;
 }
@@ -521,13 +521,13 @@ optgroup {
 /**
  * Remove most spacing between table cells.
  */
-/* line 417, ../sass/_normalize.scss */
+/* line 417, ../scss/_normalize.scss */
 table {
   border-collapse: collapse;
   border-spacing: 0;
 }
 
-/* line 422, ../sass/_normalize.scss */
+/* line 422, ../scss/_normalize.scss */
 td,
 th {
   padding: 0;
@@ -537,17 +537,17 @@ th {
   font-family: "icomoon";
   src: url("../fonts/icomoon.eot?#iefix") format("eot"), url("../fonts/icomoon.ttf") format("truetype"), url("../fonts/icomoon.woff") format("woff");
 }
-/* line 115, ../sass/style.scss */
+/* line 115, ../scss/style.scss */
 body {
   font-family: 'Lato', Helvetica, sans-serif;
 }
 
-/* line 119, ../sass/style.scss */
+/* line 119, ../scss/style.scss */
 section {
   float: none;
 }
 
-/* line 123, ../sass/style.scss */
+/* line 123, ../scss/style.scss */
 header {
   background-color: #004f7e;
   color: white;
@@ -561,7 +561,7 @@ header {
       display:block;
   }*/
 }
-/* line 128, ../sass/style.scss */
+/* line 128, ../scss/style.scss */
 header div {
   width: 72.97297%;
   float: left;
@@ -569,81 +569,81 @@ header div {
   margin: 0 auto;
   float: none;
 }
-/* line 135, ../sass/style.scss */
+/* line 134, ../scss/style.scss */
 header div h1 {
   text-transform: uppercase;
   display: inline-block;
   vertical-align: middle;
   margin-right: 2em;
 }
-/* line 143, ../sass/style.scss */
-header div h1, header div nav, header div ul, header div li {
+/* line 142, ../scss/style.scss */
+header div nav, header div ul, header div li {
   display: inline;
 }
-/* line 147, ../sass/style.scss */
+/* line 146, ../scss/style.scss */
 header div a {
   color: white;
   text-decoration: none;
 }
-/* line 152, ../sass/style.scss */
+/* line 151, ../scss/style.scss */
 header div nav a {
   padding: 0.8235294117647059em 0.8em;
   display: inline-block;
   vertical-align: middle;
 }
-/* line 158, ../sass/style.scss */
+/* line 157, ../scss/style.scss */
 header div nav a:hover {
   background-color: #007f73;
   text-decoration: underline;
 }
-/* line 165, ../sass/style.scss */
+/* line 164, ../scss/style.scss */
 header div .social {
   margin: 0;
   float: right;
 }
-/* line 170, ../sass/style.scss */
+/* line 169, ../scss/style.scss */
 header div .social li {
   display: inline-block;
   vertical-align: middle;
 }
-/* line 176, ../sass/style.scss */
+/* line 175, ../scss/style.scss */
 header div .social [class^="icon-"], header div .social [class*=" icon-"] {
   font-family: "icomoon";
 }
-/* line 180, ../sass/style.scss */
+/* line 179, ../scss/style.scss */
 header div .social .icon-facebook:before {
   content: "\e601";
 }
-/* line 184, ../sass/style.scss */
+/* line 183, ../scss/style.scss */
 header div .social .icon-twitter:before {
   content: "\e602";
 }
-/* line 188, ../sass/style.scss */
+/* line 187, ../scss/style.scss */
 header div .social .icon-googleplus:before {
   content: "\e600";
 }
-/* line 192, ../sass/style.scss */
+/* line 191, ../scss/style.scss */
 header div .social .icon-linkedin:before {
   content: "\e604";
 }
-/* line 196, ../sass/style.scss */
+/* line 195, ../scss/style.scss */
 header div .social .icon-feed:before {
   content: "\e603";
 }
-/* line 200, ../sass/style.scss */
+/* line 199, ../scss/style.scss */
 header div .social a {
   text-align: right;
   padding: 0.82353em 0.4em 0.82353em;
   display: inline-block;
   vertical-align: middle;
 }
-/* line 207, ../sass/style.scss */
+/* line 206, ../scss/style.scss */
 header div .social a:hover {
   background-color: #007f73;
   text-decoration: underline;
 }
 
-/* line 225, ../sass/style.scss */
+/* line 224, ../scss/style.scss */
 .propos {
   clear: both;
   background-color: white;
@@ -653,14 +653,14 @@ header div .social a:hover {
   margin-left: 0;
   margin-right: 0;
 }
-/* line 234, ../sass/style.scss */
+/* line 233, ../scss/style.scss */
 .propos div img {
   margin-right: 0;
   float: right;
   border-radius: 50em;
   border: 0.5em solid #000040;
 }
-/* line 243, ../sass/style.scss */
+/* line 242, ../scss/style.scss */
 .propos div a {
   text-decoration: none;
   color: #000040;
@@ -668,24 +668,24 @@ header div .social a:hover {
   padding: 0.5em;
   border-radius: 0.6em;
 }
-/* line 250, ../sass/style.scss */
+/* line 249, ../scss/style.scss */
 .propos div a:hover {
   background-color: #000040;
   color: white;
   text-decoration: underline;
 }
 
-/* line 259, ../sass/style.scss */
+/* line 258, ../scss/style.scss */
 .realisations {
   background-color: #007f73;
   color: white;
 }
-/* line 266, ../sass/style.scss */
+/* line 265, ../scss/style.scss */
 .realisations div li {
   display: inline;
   margin: 0;
 }
-/* line 272, ../sass/style.scss */
+/* line 271, ../scss/style.scss */
 .realisations div span {
   visibility: hidden;
 }
@@ -696,7 +696,7 @@ header div .social a:hover {
 /*
  * Image replacement
  */
-/* line 299, ../sass/style.scss */
+/* line 285, ../scss/style.scss */
 .ir {
   background-color: transparent;
   border: 0;
@@ -705,7 +705,7 @@ header div .social a:hover {
   *text-indent: -9999px;
 }
 
-/* line 307, ../sass/style.scss */
+/* line 293, ../scss/style.scss */
 .ir:before {
   content: "";
   display: block;
@@ -716,7 +716,7 @@ header div .social a:hover {
 /*
  * Hide from both screenreaders and browsers: h5bp.com/u
  */
-/* line 318, ../sass/style.scss */
+/* line 304, ../scss/style.scss */
 .hidden {
   display: none !important;
   visibility: hidden;
@@ -725,7 +725,7 @@ header div .social a:hover {
 /*
  * Hide only visually, but have it available for screenreaders: h5bp.com/v
  */
-/* line 327, ../sass/style.scss */
+/* line 313, ../scss/style.scss */
 .visuallyhidden {
   border: 0;
   clip: rect(0 0 0 0);
@@ -741,7 +741,7 @@ header div .social a:hover {
  * Extends the .visuallyhidden class to allow the element to be focusable
  * when navigated to via the keyboard: h5bp.com/p
  */
-/* line 343, ../sass/style.scss */
+/* line 329, ../scss/style.scss */
 .visuallyhidden.focusable:active,
 .visuallyhidden.focusable:focus {
   clip: auto;
@@ -755,7 +755,7 @@ header div .social a:hover {
 /*
  * Hide visually and from screenreaders, but maintain layout
  */
-/* line 357, ../sass/style.scss */
+/* line 343, ../scss/style.scss */
 .invisible {
   visibility: hidden;
 }
@@ -771,7 +771,7 @@ header div .social a:hover {
  * 2. The use of `table` rather than `block` is only necessary if using
  *    `:before` to contain the top-margins of child elements.
  */
-/* line 373, ../sass/style.scss */
+/* line 359, ../scss/style.scss */
 .clearfix:before,
 .clearfix:after {
   content: " ";
@@ -780,7 +780,7 @@ header div .social a:hover {
   /* 2 */
 }
 
-/* line 379, ../sass/style.scss */
+/* line 365, ../scss/style.scss */
 .clearfix:after {
   clear: both;
 }
@@ -789,7 +789,7 @@ header div .social a:hover {
  * For IE 6/7 only
  * Include this rule to trigger hasLayout and contain floats.
  */
-/* line 388, ../sass/style.scss */
+/* line 374, ../scss/style.scss */
 .clearfix {
   *zoom: 1;
 }
@@ -810,7 +810,7 @@ header div .social a:hover {
    Inlined to avoid required HTTP connection: h5bp.com/r
    ========================================================================== */
 @media print {
-  /* line 415, ../sass/style.scss */
+  /* line 401, ../scss/style.scss */
   * {
     background: transparent !important;
     color: #000 !important;
@@ -819,18 +819,18 @@ header div .social a:hover {
     text-shadow: none !important;
   }
 
-  /* line 422, ../sass/style.scss */
+  /* line 408, ../scss/style.scss */
   a,
   a:visited {
     text-decoration: underline;
   }
 
-  /* line 427, ../sass/style.scss */
+  /* line 413, ../scss/style.scss */
   a[href]:after {
     content: " (" attr(href) ")";
   }
 
-  /* line 431, ../sass/style.scss */
+  /* line 417, ../scss/style.scss */
   abbr[title]:after {
     content: " (" attr(title) ")";
   }
@@ -838,33 +838,33 @@ header div .social a:hover {
   /*
    * Don't show links for images, or javascript/internal links
    */
-  /* line 439, ../sass/style.scss */
+  /* line 425, ../scss/style.scss */
   .ir a:after,
   a[href^="javascript:"]:after,
   a[href^="#"]:after {
     content: "";
   }
 
-  /* line 445, ../sass/style.scss */
+  /* line 431, ../scss/style.scss */
   pre,
   blockquote {
     border: 1px solid #999;
     page-break-inside: avoid;
   }
 
-  /* line 451, ../sass/style.scss */
+  /* line 437, ../scss/style.scss */
   thead {
     display: table-header-group;
     /* h5bp.com/t */
   }
 
-  /* line 455, ../sass/style.scss */
+  /* line 441, ../scss/style.scss */
   tr,
   img {
     page-break-inside: avoid;
   }
 
-  /* line 460, ../sass/style.scss */
+  /* line 446, ../scss/style.scss */
   img {
     max-width: 100% !important;
   }
@@ -872,7 +872,7 @@ header div .social a:hover {
   @page {
     margin: 0.5cm;
   }
-  /* line 468, ../sass/style.scss */
+  /* line 454, ../scss/style.scss */
   p,
   h2,
   h3 {
@@ -880,7 +880,7 @@ header div .social a:hover {
     widows: 3;
   }
 
-  /* line 475, ../sass/style.scss */
+  /* line 461, ../scss/style.scss */
   h2,
   h3 {
     page-break-after: avoid;
