@@ -403,3 +403,115 @@ th {
 body {
   font-family: Lato, Helvetica, sans-serif;
 }
+
+header {
+  background-color: #004f7e;
+  color: white;
+}
+header div {
+  height: 3em;
+  max-width: 68em;
+  margin-left: auto;
+  margin-right: auto;
+}
+header div:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+header div h1 {
+  text-transform: uppercase;
+}
+header div h1, header div nav, header div ul, header div li {
+  display: inline;
+}
+header div a {
+  color: white;
+  text-decoration: none;
+}
+header div nav li {
+  padding: 0.9117647058823529em 0.6em;
+}
+header div nav li:hover {
+  background-color: #007f73;
+  text-decoration: underline;
+}
+header div .social {
+  float: right;
+  /* li {
+  	background-image : url(../img/sprite-logo1.jpg);
+  	background-position : 0px 0px;
+  	width : 25px;
+  	height : 20px;
+  	text-indent : -9999px;
+  } */
+}
+
+.propos {
+  background-color: white;
+  color: #000040;
+}
+.propos div {
+  max-width: 68em;
+  margin-left: auto;
+  margin-right: auto;
+}
+.propos div:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.propos div img {
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 23.23176%;
+  margin-right: 0;
+  float: right;
+  border-radius: 50em;
+  border: 0.5em solid #000040;
+}
+.propos div img:last-child {
+  margin-right: 0;
+}
+.propos div a {
+  text-decoration: none;
+  color: #000040;
+  border: 0.2em solid #000040;
+  padding: 0.5em;
+  border-radius: 0.6em;
+}
+.propos div a:hover {
+  background-color: #000040;
+  color: white;
+  text-decoration: underline;
+}
+
+.realisations {
+  background-color: #007f73;
+  color: white;
+}
+.realisations div {
+  max-width: 68em;
+  margin-left: auto;
+  margin-right: auto;
+}
+.realisations div:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.realisations div li {
+  display: inline;
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 23.23176%;
+  margin: 0;
+}
+.realisations div li:last-child {
+  margin-right: 0;
+}
+.realisations div span {
+  visibility: hidden;
+}

@@ -1,7 +1,113 @@
-@import "../bourbon/bourbon";
-@import "../neat/neat";
+@import "_bourbon";
+@import "_neat";
 @import "_normalize";
 
+$blue : rgb(0,79,126);
+$deepBlue : rgb(0,0,64);
+$green : rgb(0,127,115);
+$deepGreen : rgb(0,96,74);
+
 body {
-	font-family:"Lato";
+	font-family: Lato, Helvetica, sans-serif;
+}
+
+header {
+	background-color: $blue;
+	color:white;
+	
+	
+	div {
+
+		height:3em;
+
+		@include outer-container;
+		
+		h1 {
+			text-transform: uppercase;
+		
+		}
+
+		h1, nav, ul, li {
+			display :inline;
+		}
+		
+		a {
+			color:white;
+			text-decoration: none;
+		}
+
+		nav li {
+			padding: 0.9117647058823529em 0.6em;
+
+			&:hover{
+				background-color: $green;
+				text-decoration: underline;
+			}
+
+		}
+
+		.social{
+			float:right;
+
+			/* li {
+				background-image : url(../img/sprite-logo1.jpg);
+				background-position : 0px 0px;
+				width : 25px;
+				height : 20px;
+				text-indent : -9999px;
+			} */
+		}	
+
+	}
+}
+
+.propos {
+	background-color: white;
+	color:$deepBlue;
+
+	div {
+		@include outer-container;
+
+		img {
+			@include span-columns(3);
+			margin-right: 0;
+			float:right;
+			border-radius: 50em;
+			border:0.5em solid $deepBlue;
+
+		}
+
+		a {
+			text-decoration: none;
+			color:$deepBlue;
+			border:0.2em solid $deepBlue;
+			padding:0.5em;
+			border-radius: 0.6em;
+
+			&:hover{
+				background-color: $deepBlue;
+				color:white;
+				text-decoration: underline;
+			}
+		}
+	}
+}
+
+.realisations {
+	background-color: $green;
+	color:white;
+
+	div {
+		@include outer-container;
+
+		li {
+			display:inline;
+			@include span-columns(3);
+			margin:0;
+		}
+
+		span {
+			visibility:hidden;
+		}
+	}
 }
